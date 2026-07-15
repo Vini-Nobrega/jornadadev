@@ -26,4 +26,5 @@ FUNCTION Main()
     Qout("Horário atual: " + cHora)
     Qout(cIgual)
 
+
 RETURN NIL
