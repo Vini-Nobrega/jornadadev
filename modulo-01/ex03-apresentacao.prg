@@ -1,18 +1,18 @@
-//ficha de apresentaá∆o
-//Nome: Vin°cius
+//ficha de apresenta√ß√£o
+//Nome: Vin√≠cius
 //Cidade: Guarulhos
 //Curso: Harbour / ADVPL
-
+//
 FUNCTION Main()
-    LOCAL cNome := "Vin°cius"
+    LOCAL cNome := "Vin√≠cius"
     LOCAL cCidade := "Guarulhos"
     LOCAL cCurso := "Harbour / ADVPL"
     LOCAL cIgual := "============================"
 
-    hb_cdpSelect("PT850") // Para corrigir o erro na acentuaá∆o (mais especificamente o do "~")
+    hb_cdpSelect("PT850") // Para corrigir o erro na acentua√ß√£o (mais especificamente o do "~")
 
     Qout(cIgual)
-    QOut("  Ficha de apresentaá∆o")
+    QOut("  Ficha de apresenta√ß√£o")
     Qout(cIgual)
     QOut("Nome: " + cNome)
     Qout("Cidade: " + cCidade)

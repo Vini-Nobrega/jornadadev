@@ -4,19 +4,18 @@
 
 FUNCTION Main()
     
-    LOCAL cNome := "Vin°cius N¢brega"
+    LOCAL cNome := "Vin√≠cius N√≥brega"
     LOCAL cCidade := "Guarulhos"
 
     QOut("- " + cNome + " - " + cCidade +  " - Pronto para aprender ADVPL!")
 
 RETURN NIL
 
-
 // Forma 2
 
 // FUNCTION Main()
     
-//     LOCAL cNome := "Vin°cius N¢brega"
+//     LOCAL cNome := "Vin√≠cius N√≥brega"
 //     LOCAL cCidade := "Guarulhos"
 
 //     QOut("- " + cNome)

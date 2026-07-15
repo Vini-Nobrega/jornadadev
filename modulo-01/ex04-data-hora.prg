@@ -1,30 +1,29 @@
-//ficha de apresentaá∆o
-//Nome: Vin°cius
+//ficha de apresenta√ß√£o
+//Nome: Vin√≠cius
 //Cidade: Guarulhos
 //Curso: Harbour / ADVPL
 
 FUNCTION Main()
-    LOCAL cNome := "Vin°cius"
+    LOCAL cNome := "Vin√≠cius"
     LOCAL cCidade := "Guarulhos"
     LOCAL cCurso := "Harbour / ADVPL"
     LOCAL cIgual := "============================"
     LOCAL dData_de_hoje := Date() // o Date() pega o dia de hoje
-    LOCAL cHora := Time() // o Time() pega o hor†rio e j† converte para String
+    LOCAL cHora := Time() // o Time() pega o hor√°rio e j√° converte para String
 
-    hb_cdpSelect("PT850") // Para corrigir o erro na acentuaá∆o (mais especificamente o do "~")
-    SET DATE FORMAT TO "DD/MM/YYYY" // Isso aqui faz com que a data seja formatada no formado DD/MM/YYYY, e n∆o o padr∆o, que Ç MM/DD/YYYY
+    hb_cdpSelect("PT850") // Para corrigir o erro na acentua√ß√£o (mais especificamente o do "~")
+    SET DATE FORMAT TO "DD/MM/YYYY" // Isso aqui faz com que a data seja formatada no formado DD/MM/YYYY, e n√£o o padr√£o, que √© MM/DD/YYYY
 
 
     Qout(cIgual)
-    QOut("  Ficha de apresentaá∆o")
+    QOut("  Ficha de apresenta√ß√£o")
     Qout(cIgual)
     QOut("Nome: " + cNome)
     Qout("Cidade: " + cCidade)
     Qout("Curso: " + cCurso)
     Qout(cIgual)
-    Qout("Data de hoje: " + DToC(dData_de_hoje)) // Na documentaá∆o mostra que converte a data para caracteres. Ai da certo no terminal, e vem bem formatadinha.
-    Qout("Hor†rio atual: " + cHora)
+    Qout("Data de hoje: " + DToC(dData_de_hoje)) // Na documenta√ß√£o mostra que converte a data para caracteres. Ai da certo no terminal, e vem bem formatadinha.
+    Qout("Hor√°rio atual: " + cHora)
     Qout(cIgual)
-
 
 RETURN NIL
